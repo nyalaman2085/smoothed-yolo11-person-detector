@@ -24,16 +24,11 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 
-
-
 # Run the default detector application
 python detector.py
 
 # Programmatically execute with custom input/output paths
 python -c "from detector import run_detector; run_detector('path/to/video.mp4', 'output_smoothed.mp4')"
-
-
-
 
 
 # Cleanly terminate any running instances of the detector pipeline
@@ -46,7 +41,3 @@ pgrep -fl detector.py || echo "no detector process"
 # Audit local weights storage and workspace files
 ls -lh "yolo11n.pt" || echo "yolo11n.pt not found in workspace"
 ls -lh
-
-
-
-
