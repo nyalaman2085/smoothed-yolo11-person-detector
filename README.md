@@ -13,5 +13,6 @@ An optimized, production-ready computer vision pipeline designed to solve a comm
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/smoothed-yolo11-person-detector.git](https://github.com/YOUR_USERNAME/smoothed-yolo11-person-detector.git)
-   cd smoothed-yolo11-person-detector
+git clone [https://github.com/nyalaman2085/smoothed-yolo11-person-detector.git](https://github.com/nyalaman2085/smoothed-yolo11-person-detector.git)
+cd smoothed-yolo11-person-detector
+   
